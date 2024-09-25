@@ -1,0 +1,63 @@
+{
+  "employees": [
+    {
+      "id": "EMP_KaYVb",
+      "empId": "EMP_KaYVb",
+      "nic": "12345V",
+      "firstName": "Raju",
+      "lastName": "Bai",
+      "dob": "2024-09-02",
+      "doj": "2024-09-01"
+    },
+    {
+      "id": "EMP_imrxd",
+      "employeeId": "EMP_imrxd",
+      "nic": "2002123456",
+      "firstName": "john",
+      "lastName": "doe",
+      "dob": "2002-01-02",
+      "doj": "2024-12-09"
+    }
+  ],
+  "users": [
+    {
+      "id": "EMP_KaYVb",
+      "empId": "EMP_KaYVb",
+      "username": "EMP_KaYVb",
+      "password": "pwd123",
+      "role": "Employee"
+    },
+    {
+      "id": "EMP_imrxd",
+      "employeeId": "EMP_imrxd",
+      "username": "EMP_imrxd",
+      "password": "pwd123",
+      "role": "Employee"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "1",
+      "employeeId": "EMP_KaYVb",
+      "reason": "sick",
+      "dateFrom": "2024-09-12",
+      "numOfDays": 2
+    },
+    {
+      "id": "2",
+      "employeeId": "EMP_KaYVb",
+      "reason": "party",
+      "dateFrom": "2024-09-20",
+      "numOfDays": 4
+    },
+    {
+      "id": "c695",
+      "employeeId": "EMP_imrxd",
+      "reason": "trip",
+      "dateFrom": "2024-09-30",
+      "numOfDays": "2",
+      "applicationDate": "2024-09-26",
+      "status": "Pending"
+    }
+  ]
+}
